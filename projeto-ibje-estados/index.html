@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Municípios do Brasil por Estado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Consulta de Municípios por Estado</h1>
+  <p>Selecione um estado para listar suas cidades e informações regionais.</p>
+
+  <select id="estado-select">
+    <option value="" disabled selected>Carregando estados...</option>
+  </select>
+
+  <table id="municipios-tabela">
+    <thead>
+    <tr>
+      <th>Nome da Cidade</th>
+      <th>Microrregião</th>
+      <th>Mesorregião</th>
+      <th>Região</th>
+    </tr>
+    </thead>
+    <tbody id="municipios-tbody">
+    </tbody>
+  </table>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
