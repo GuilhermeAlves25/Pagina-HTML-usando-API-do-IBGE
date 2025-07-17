@@ -1,1 +1,1 @@
-# Pagina-HTML-que-exibe-informa-es-dos-munic-pios-brasileiros-utilizando-JavaScript-HTML-e-CSS
+# Pagina HTML que exibe informaes dos municpios brasileiros utilizando JavaScript HTML e CSS
